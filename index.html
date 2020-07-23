@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!-- linked-resources--bootstrap css start -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+   <!-- linked-resources--bootstrap css ends -->
+
+</head>
+<!-- Body-section starts  -->
+
+<!-- Login-Area starts  -->
+
+  <section class="container" id="login-area">
+         <h1 class="text-center">Welcome to the NaN Bank </h1>
+         <div class="submit-area">
+           <h4>Login</h4>
+           <input type="text" class="form-control" placeholder="Email">
+           <br>
+           <input type="password" name="" id=""class="form-control" placeholder="Password">
+           <br>
+           <button id="login" class="btn btn-success">Login</button>
+         </div>
+  </section>
+
+  <!-- Login-Area ends -->
+
+  <!-- Transaction Area starts  -->
+
+  <section class="container" id="transaction-area">
+    <div class="row">
+      <div class="col-md-4">
+             <div class="deposit status">
+              <h5>Deposit</h5>
+              <h2>$<span id="depositRemAmount">000</span></h2>
+             </div>
+      </div>
+      <div class="col-md-4">
+        <div class="withdraw status">
+          <h5>Withdraw</h5>
+          <h2>$<span id="withdrawbar">000</span></h2>
+        </div>
+
+      </div>
+      <div class="col-md-4 ">
+       <div class="balance status">
+        <h5>Balance</h5>
+        <h2>$<span id="balanceAmount">2000</span></h2>
+       </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+
+
+        <div class="col-md-6">
+       <div class="submit-area">
+        <h4>Deposit</h4>
+        <input type="text" class="form-control"placeholder="$amount you wants to deposit" id="depositAmount"><br>
+        <button id="addDeposit" class="btn btn-success">Enter</button>
+
+       </div>
+       </div>
+
+
+      <div class="col-md-6">
+     <div class="submit-area">
+      <h4>Withdraw</h4>
+      <input type="text"class="form-control" placeholder="$amount you want to withdraw" id = "addWithdraw"><br>
+      <button class="btn btn-success" id="withdraw-btn">Enter</button>
+     </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Transaction area ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- Initial-resources-added- jquery--js starts -->
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  <!-- Initial-resources-added- jquery--js ends -->
+
+</body>
+<!-- Body-section ends  -->
+</html>
